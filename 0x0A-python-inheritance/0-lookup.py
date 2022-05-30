@@ -1,9 +1,17 @@
 #!/usr/bin/python3
-# 0-lookup.py
-# Sazi A. Ndwandwe
-"""Defines an object attribute lookup function."""
+"""0-lookup.py
+"""
 
 
 def lookup(obj):
-    """Return a list of an object's available attributes."""
-    return (dir(obj))
+    """ Function returning list of available attributes
+        and methods of an object
+
+    Args:
+        obj: instance of the class
+
+    Returns:
+        List of attributes
+    """
+
+    return dir(obj)
