@@ -34,3 +34,4 @@ except KeyboardInterrupt:
     for key, value in sorted(status_tally.items()):
         if value:
             print("{:s}: {:d}".format(key, value))
+            
